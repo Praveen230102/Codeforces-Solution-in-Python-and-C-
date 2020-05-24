@@ -1,0 +1,7 @@
+n = int(input())
+arr = list(map(int, input().split()))
+arr.reverse()
+lst = list(dict.fromkeys(arr))
+lst.reverse()
+print(len(lst))
+print(*lst, sep=" ")
