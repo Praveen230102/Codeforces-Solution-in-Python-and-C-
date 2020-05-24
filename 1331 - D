@@ -1,0 +1,8 @@
+s = input()
+l = len(s)
+#print("String is > ", s)
+#print("Length is > ", l)
+if int(s[l-1])%2 == 0:
+    print(0)
+else:
+    print(1)
