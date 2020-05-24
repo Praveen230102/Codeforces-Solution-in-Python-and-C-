@@ -1,0 +1,6 @@
+n = int(input())
+s = input()
+arr = list(s)
+left = arr.count("L")
+right = arr.count("R")
+print(left + right + 1)
